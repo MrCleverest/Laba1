@@ -55,7 +55,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Copybook.cs" />
+    <Compile Include="General.cs" />
+    <Compile Include="Inheritance.xaml.cs">
+      <DependentUpon>Inheritance.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Vector.cs" />
+    <Page Include="Inheritance.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

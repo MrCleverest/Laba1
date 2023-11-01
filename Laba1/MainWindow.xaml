@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="344" Width="637">
     <Grid Margin="0,0,26,16">
-        <Label Content="Вектор 1" HorizontalAlignment="Left" Margin="79,32,0,0" VerticalAlignment="Top"/>
-        <Label Content="Вектор 2" HorizontalAlignment="Left" Margin="193,32,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.36,0.657"/>
+        <Label Content="Вектор 1" HorizontalAlignment="Left" Margin="79,42,0,0" VerticalAlignment="Top"/>
+        <Label Content="Вектор 2" HorizontalAlignment="Left" Margin="193,42,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.36,0.657"/>
         <Label Content="X" HorizontalAlignment="Left" Margin="27,69,0,0" VerticalAlignment="Top"/>
         <Label Content="Y" HorizontalAlignment="Left" Margin="27,95,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.002,-0.047"/>
         <Label Content="Z" HorizontalAlignment="Left" Margin="27,123,0,0" VerticalAlignment="Top"/>
@@ -39,6 +39,9 @@
         <Label Name="y4" Content="" HorizontalAlignment="Left" Margin="528,95,0,0" VerticalAlignment="Top"/>
         <Label Name="z4" Content="" HorizontalAlignment="Left" Margin="528,126,0,0" VerticalAlignment="Top"/>
         <Label Name="prod" Content="" HorizontalAlignment="Left" Margin="465,261,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.4,0.533"/>
+        <Menu Margin="10,2,335,257">
+            <MenuItem Header="Inheritance" Height="31" Width="85" Click="MenuItem_Click"/>
+        </Menu>
 
     </Grid>
 </Window>

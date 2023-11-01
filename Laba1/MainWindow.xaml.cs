@@ -61,5 +61,11 @@ namespace Laba1
             double product = Vector.DotProduct(vector1, vector2);
             prod.Content = Convert.ToString(Convert.ToDouble(product));
         }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            var InheritanceWindow = new Inheritance();
+            InheritanceWindow.Show();
+        }
     }
 }
